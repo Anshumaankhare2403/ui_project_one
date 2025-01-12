@@ -34,7 +34,7 @@ class CenterContainer extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              SizedBox(height: screenHeight * 0.03), // Dynamic spacing
+              SizedBox(height: screenHeight * 0.02), // Dynamic spacing
               InkWell(
                 onTap: () {
                   print("Going to my Website!");
@@ -61,7 +61,7 @@ class CenterContainer extends StatelessWidget {
                     textAlign: TextAlign.center,
                     style: const TextStyle(
                       color: Colors.white,
-                      fontSize: 18,
+                      fontSize: 15,
                       fontWeight: FontWeight.bold,
                       letterSpacing: 1.2,
                     ),
