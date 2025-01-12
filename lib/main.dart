@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
                 child: ImageList(
                   startIndex: 20,
                   duration: 20,
-                  num: 1.98,
+                  num: 1.97,
                 ),
               ),
               // Second Image List
@@ -47,9 +47,25 @@ class MyApp extends StatelessWidget {
                   num: 1.98,
                 ),
               ),
+              Expanded(
+                flex: 3,
+                child: ImageList(
+                  startIndex: 20,
+                  duration: 35,
+                  num: 1.98,
+                ),
+              ),
+              Expanded(
+                flex: 3,
+                child: ImageList(
+                  startIndex: 20,
+                  duration: 35,
+                  num: 1.98,
+                ),
+              ),
               // Fourth Image List
               SizedBox(
-                height: 300,
+                height: 270,
                 child: CenterContainer(),
               ),
             ],
