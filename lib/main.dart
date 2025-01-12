@@ -48,7 +48,6 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               // Fourth Image List
-
               SizedBox(
                 height: 300,
                 child: CenterContainer(),
